@@ -6,6 +6,9 @@
   --bg1: #f7faff;
   --bg2: #eef3ff;
   --bg3: #fbfdfc;
+  --grad1: #6366f1; /* indigo */
+  --grad2: #22d3ee; /* cyan */
+  --grad3: #f43f5e; /* rose */
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -28,9 +31,12 @@ body {
   min-width: 320px;
   min-height: 100vh;
   background-image:
-    radial-gradient(40rem 20rem at -10% -10%, rgba(79, 70, 229, 0.10), transparent),
-    radial-gradient(36rem 18rem at 110% -10%, rgba(14, 165, 233, 0.10), transparent),
+    radial-gradient(40rem 20rem at -10% -10%, color-mix(in oklab, var(--grad1) 18%, transparent), transparent),
+    radial-gradient(36rem 18rem at 110% -10%, color-mix(in oklab, var(--grad2) 18%, transparent), transparent),
+    radial-gradient(28rem 14rem at 50% 120%, color-mix(in oklab, var(--grad3) 12%, transparent), transparent),
     linear-gradient(180deg, var(--bg1), var(--bg3));
+  background-size: auto, auto, auto, 100% 100%;
+  animation: bgShift 18s ease-in-out infinite;
 }
 
 h1 { font-size: 3.2em; line-height: 1.1; }
@@ -40,3 +46,9 @@ button:hover { box-shadow: 0 6px 18px rgba(15,98,254,0.25); transform: translate
 button:focus, button:focus-visible { outline: 3px solid rgba(15,98,254,.4); }
 
 @media (prefers-color-scheme: light) { :root { color: #213547; } a:hover { color: #747bff; } }
+
+@keyframes bgShift {
+  0% { background-position: -10% -10%, 110% -10%, 50% 120%, 0 0; }
+  50% { background-position: -18% -14%, 116% -6%, 50% 116%, 0 0; }
+  100% { background-position: -10% -10%, 110% -10%, 50% 120%, 0 0; }
+}
