@@ -11,7 +11,7 @@ It highlights my journey in **web development**, featuring a clean UI and smooth
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 - **React.js (Vite)** — Frontend framework for fast development  
 - **HTML5** — Structure of the web pages  
 - **CSS3** — Styling and responsive design  
