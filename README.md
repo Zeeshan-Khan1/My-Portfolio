@@ -1,7 +1,7 @@
 # My Portfolio
 
 ### 🚀 Live Demo  
-👉 [(http://zeeshan-khan-f2023266847.surge.sh/)](https://zeeshan-khan-f2023266847.surge.sh/)
+👉 [http://zeeshan-khan-f2023266847.surge.sh/](https://zeeshan-khan-f2023266847.surge.sh/)
 
 ---
 
