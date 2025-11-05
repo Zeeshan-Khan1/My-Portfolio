@@ -1,11 +1,11 @@
 # My Portfolio
 
-### 🚀 Live Demo  
-👉 [http://zeeshan-khan-f2023266847.surge.sh/](https://zeeshan-khan-f2023266847.surge.sh/)
+### Live Demo  
+[http://zeeshan-khan-f2023266847.surge.sh/](https://zeeshan-khan-f2023266847.surge.sh/)
 
 ---
 
-## 🧑‍💻 About the Project
+## About the Project
 This is my **personal portfolio website**, built to showcase my projects, skills, and experience as a computer science student.  
 It highlights my journey in **web development**, featuring a clean UI and smooth navigation.
 
