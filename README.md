@@ -10,7 +10,6 @@ This is my **personal portfolio website**, built to showcase my projects, skills
 It highlights my journey in **web development**, featuring a clean UI and smooth navigation.
 
 ---
-
 ## Technologies Used
 - **React.js (Vite)** — Frontend framework for fast development  
 - **HTML5** — Structure of the web pages  
